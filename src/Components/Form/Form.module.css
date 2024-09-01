@@ -1,0 +1,81 @@
+.inputStyle{
+    border-radius: 10px;
+    height:45px;
+    padding: 0px;
+    text-align: center;
+    margin: 7px;
+    width: 90%;
+    background-color: rgba(238, 242, 242, 0.705);
+    border: 1px solid rgba(98, 105, 105, 0.9);
+
+}
+.labelStyle{
+    padding:5px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.buttonStyle{
+    color:rgb(16, 18, 2);
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    border-radius: 5px;
+    padding:5px;
+    border: 1px solid rgba(98, 105, 105, 0.9);
+    margin-top:15px;
+  
+    cursor: pointer;
+    width: 80px;
+    background-color: rgba(255, 255, 255, 0.812);
+}
+.buttonStyle:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+.formStyle{
+   
+    background-color: aqua;
+    width:23%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.222);
+    backdrop-filter: blur(10px); /* blur effect */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.505);
+    text-align: center;
+} 
+.formMsg{
+
+    font-size:0.8em;
+}  
+/* .container{
+    /* background: linear-gradient(rgba(10, 207, 10, 0.951),rgba(38, 66, 118, 0.852), rgba(255, 0, 0, 0.507)); */
+.heading{
+    font-size:30px;
+    color:rgba(32, 37, 4, 0.737);
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: auto;
+}
+.formHeading{
+    font-size:15px;
+    color:rgba(32, 37, 4, 0.737);
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 5px;
+}
+.errorMsg{
+    color:red;
+    font-size: 0.8em;
+    text-align: left !important;
+    padding-left: 20px !important;
+    padding-top: 0px;
+    margin-top: 0;
+    display: flex;
+}
+
+.cardMsg{
+    font-size:0.8em;
+    color: green
+}

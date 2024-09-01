@@ -1,0 +1,9 @@
+.cardsStyle{
+   display: flex;
+   align-items: center;   
+   position: relative;
+   top:70px;
+   padding: auto;
+   box-sizing:border-box; 
+   flex-wrap: wrap;
+}

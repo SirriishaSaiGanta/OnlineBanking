@@ -1,0 +1,76 @@
+.transactionsPage {
+    font-family: monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: url("./assets/backgroundimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transactionHeading {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 60px;
+    color: #2c3e50;
+}
+
+
+.tableContainer {
+    width: 70%;
+    /* height: 75vh; */
+    overflow-y: auto; 
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: 1px solid #686868; 
+    scrollbar-width: 7px; /* For Firefox */
+    scrollbar-color: #888 #f1f1f18f; /* For Firefox */
+    scroll-behavior: smooth;
+    
+}
+
+.transactionTable {
+    width: 100%; 
+    border-collapse: collapse;}
+
+.transactionTable thead {
+    background-color: #ecf0f1; 
+    color: #273441; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1; 
+}
+
+.transactionTable th, .transactionTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.transactionTable th {
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
+
+/* .transactionTable tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+} */
+
+.transactionTable tbody tr:nth-child(odd) {
+    background-color: #025fa23b;
+    cursor: pointer;
+}
+
+
+.Notransactions{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 100px;
+    font-weight: bold;
+}
